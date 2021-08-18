@@ -1,0 +1,10 @@
+# Compiled files
+FooBaa
+ConcatRemove
+ConcatRemoveUnitTest
+StringLength
+ReverseString
+
+# Others
+build/*
+*.code-workspace
