@@ -23,17 +23,17 @@ int main(int argc, char** argv) {
   // str = std::string(str.rbegin(), str.rend());
   // std::cout << str << std::endl;
 
-  // for (int i = str.length() - 1; i >= 0; i--) {
+  // for (size_t i = str.length() - 1; i >= 0; i--) {
   //   std::cout << str[i];
   // }
   // std::cout << std::endl;
 
-  // for (int i = 0; i < str.length() / 2; i++) {
+  // for (size_t i = 0; i < str.length() / 2; i++) {
   //   std::swap(str[i], str[str.length() - i - 1]);
   // }
   // std::cout << str << std::endl;
 
-  for (int i = 0; i < str.length() / 2; i++) {
+  for (size_t i = 0; i < str.length() / 2; i++) {
     str[i] = str[i] + str[str.length() - i - 1];
     str[str.length() - i - 1] = str[i] - str[str.length() - i - 1];
     str[i] = str[i] - str[str.length() - i - 1];

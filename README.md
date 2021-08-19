@@ -188,3 +188,20 @@ How to compile and run:
 g++ 10.cpp -o ReverseString
 ./ReverseString
 ```
+
+&nbsp;
+
+## **Extra: building with CMakeLists.txt**
+
+After [installing](https://gist.github.com/dlime/313f74fd23e4267c4a915086b84c7d3d) all dependencies, run the following commands:
+
+```sh
+git clone https://github.com/Eberty/ProgrammingSkillsAndSQL.git
+cd ProgrammingSkillsAndSQL/
+mkdir build && cd build
+cmake ..
+make -j$(nproc)
+cd ..
+```
+
+Once the executables are compiled and generated, you can run the C++ programs as described in their respective subsections.
